@@ -1,0 +1,32 @@
+[remap]
+
+importer="texture"
+type="StreamTexture"
+path="res://.import/LeftHand (1).png-a99cc574419607bfa7429eb918065166.stex"
+
+[deps]
+
+source_file="res://knightSprite/dragonbones/library/LeftHand (1).png"
+source_md5="bf44c0009aaa750fe26281698a5c65e0"
+
+dest_files=[ "res://.import/LeftHand (1).png-a99cc574419607bfa7429eb918065166.stex" ]
+dest_md5="832018e3c7e4bee278ad698c0acfe08e"
+
+[params]
+
+compress/mode=0
+compress/lossy_quality=0.7
+compress/hdr_mode=0
+compress/normal_map=0
+flags/repeat=0
+flags/filter=true
+flags/mipmaps=false
+flags/anisotropic=false
+flags/srgb=2
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/HDR_as_SRGB=false
+stream=false
+size_limit=0
+detect_3d=true
+svg/scale=1.0

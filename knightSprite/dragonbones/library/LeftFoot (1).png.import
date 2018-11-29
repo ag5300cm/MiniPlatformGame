@@ -1,0 +1,32 @@
+[remap]
+
+importer="texture"
+type="StreamTexture"
+path="res://.import/LeftFoot (1).png-a78cff3e8caa9e433439e414775feef3.stex"
+
+[deps]
+
+source_file="res://knightSprite/dragonbones/library/LeftFoot (1).png"
+source_md5="24b925feefe9e67138db7c5b33b21416"
+
+dest_files=[ "res://.import/LeftFoot (1).png-a78cff3e8caa9e433439e414775feef3.stex" ]
+dest_md5="9cdc1df4b6986a36c6f7f87efe1bd886"
+
+[params]
+
+compress/mode=0
+compress/lossy_quality=0.7
+compress/hdr_mode=0
+compress/normal_map=0
+flags/repeat=0
+flags/filter=true
+flags/mipmaps=false
+flags/anisotropic=false
+flags/srgb=2
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/HDR_as_SRGB=false
+stream=false
+size_limit=0
+detect_3d=true
+svg/scale=1.0
