@@ -1,0 +1,32 @@
+[remap]
+
+importer="texture"
+type="StreamTexture"
+path="res://.import/Jump (5).png-2cfd5c03b90807c2fb5fe61d73bdd82e.stex"
+
+[deps]
+
+source_file="res://Player/Jump (5).png"
+source_md5="f8deabcbd72d81f251317a3848b6c93c"
+
+dest_files=[ "res://.import/Jump (5).png-2cfd5c03b90807c2fb5fe61d73bdd82e.stex" ]
+dest_md5="adad44af8412118b88ac067709e67d96"
+
+[params]
+
+compress/mode=0
+compress/lossy_quality=0.7
+compress/hdr_mode=0
+compress/normal_map=0
+flags/repeat=0
+flags/filter=false
+flags/mipmaps=false
+flags/anisotropic=false
+flags/srgb=2
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/HDR_as_SRGB=false
+stream=false
+size_limit=0
+detect_3d=false
+svg/scale=1.0

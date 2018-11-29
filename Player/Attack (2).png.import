@@ -1,0 +1,32 @@
+[remap]
+
+importer="texture"
+type="StreamTexture"
+path="res://.import/Attack (2).png-e5f3be40785f2b18dd2b45f9c5ee886e.stex"
+
+[deps]
+
+source_file="res://Player/Attack (2).png"
+source_md5="f3977184ff1e70bfa5d160035d0c1a15"
+
+dest_files=[ "res://.import/Attack (2).png-e5f3be40785f2b18dd2b45f9c5ee886e.stex" ]
+dest_md5="9dced0c09b0d9ccb35a65bc79cb7e005"
+
+[params]
+
+compress/mode=0
+compress/lossy_quality=0.7
+compress/hdr_mode=0
+compress/normal_map=0
+flags/repeat=0
+flags/filter=false
+flags/mipmaps=false
+flags/anisotropic=false
+flags/srgb=2
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/HDR_as_SRGB=false
+stream=false
+size_limit=0
+detect_3d=false
+svg/scale=1.0

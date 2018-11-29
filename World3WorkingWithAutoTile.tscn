@@ -1,0 +1,40 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://Player.tscn" type="PackedScene" id=1]
+[ext_resource path="res://DirtAutoTile.tres" type="TileSet" id=2]
+[ext_resource path="res://WorldComplete.tscn" type="PackedScene" id=3]
+
+[node name="World3WorkingWithAutoTile" type="Node"]
+
+[node name="Player" parent="." index="0" instance=ExtResource( 1 )]
+
+position = Vector2( 15, 88 )
+
+[node name="TileMap" type="TileMap" parent="." index="1"]
+
+position = Vector2( 22, 53 )
+mode = 0
+tile_set = ExtResource( 2 )
+cell_size = Vector2( 64, 64 )
+cell_quadrant_size = 16
+cell_custom_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+cell_half_offset = 2
+cell_tile_origin = 0
+cell_y_sort = false
+cell_clip_uv = false
+collision_use_kinematic = false
+collision_friction = 1.0
+collision_bounce = 0.0
+collision_layer = 1
+collision_mask = 1
+occluder_light_mask = 1
+format = 1
+tile_data = PoolIntArray( -65536, 0, 196613, 65540, 0, 5, 65544, 0, 5, 131075, 0, 1, 131076, 0, 11, 131080, 0, 65541, 262143, 0, 196608, 196608, 0, 196609, 196609, 0, 196609, 196610, 0, 196609, 196611, 0, 65544, 196612, 0, 65547, 196613, 0, 196609, 196614, 0, 196609, 196615, 0, 196609, 196616, 0, 196611, 196617, 0, 196610 )
+_sections_unfolded = [ "Collision" ]
+
+[node name="WorldComplete" parent="." index="2" instance=ExtResource( 3 )]
+
+position = Vector2( 562, 66 )
+world_scene = "res://World4.tscn"
+
+

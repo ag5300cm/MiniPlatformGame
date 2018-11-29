@@ -1,0 +1,32 @@
+[remap]
+
+importer="texture"
+type="StreamTexture"
+path="res://.import/Dead (10).png-5140aab615de7945a60f88c19e80a989.stex"
+
+[deps]
+
+source_file="res://Player/Dead (10).png"
+source_md5="1ef5fc50b7195485fe1985fadaa52855"
+
+dest_files=[ "res://.import/Dead (10).png-5140aab615de7945a60f88c19e80a989.stex" ]
+dest_md5="28a343177c9441b403a275f8fc1e07bb"
+
+[params]
+
+compress/mode=0
+compress/lossy_quality=0.7
+compress/hdr_mode=0
+compress/normal_map=0
+flags/repeat=0
+flags/filter=false
+flags/mipmaps=false
+flags/anisotropic=false
+flags/srgb=2
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/HDR_as_SRGB=false
+stream=false
+size_limit=0
+detect_3d=false
+svg/scale=1.0
