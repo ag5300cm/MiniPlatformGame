@@ -1,0 +1,32 @@
+[remap]
+
+importer="texture"
+type="StreamTexture"
+path="res://.import/Walk (9).png-212987e6c85310c174eeede6f4ac0111.stex"
+
+[deps]
+
+source_file="res://Player/Walk (9).png"
+source_md5="e8c3a07b16a29fb6de5b41cda0f0d4b5"
+
+dest_files=[ "res://.import/Walk (9).png-212987e6c85310c174eeede6f4ac0111.stex" ]
+dest_md5="2f37098f7ec87763746ad9ea98f1a44b"
+
+[params]
+
+compress/mode=0
+compress/lossy_quality=0.7
+compress/hdr_mode=0
+compress/normal_map=0
+flags/repeat=0
+flags/filter=false
+flags/mipmaps=false
+flags/anisotropic=false
+flags/srgb=2
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/HDR_as_SRGB=false
+stream=false
+size_limit=0
+detect_3d=false
+svg/scale=1.0

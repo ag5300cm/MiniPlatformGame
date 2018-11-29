@@ -1,0 +1,32 @@
+[remap]
+
+importer="texture"
+type="StreamTexture"
+path="res://.import/JumpAttack (5).png-7d57d003a108967c376789bb2f51f197.stex"
+
+[deps]
+
+source_file="res://Player/JumpAttack (5).png"
+source_md5="84ccd434c79653bfc27a1808d4539159"
+
+dest_files=[ "res://.import/JumpAttack (5).png-7d57d003a108967c376789bb2f51f197.stex" ]
+dest_md5="3f7abf3a031eef1125f75def32edd8ab"
+
+[params]
+
+compress/mode=0
+compress/lossy_quality=0.7
+compress/hdr_mode=0
+compress/normal_map=0
+flags/repeat=0
+flags/filter=false
+flags/mipmaps=false
+flags/anisotropic=false
+flags/srgb=2
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/HDR_as_SRGB=false
+stream=false
+size_limit=0
+detect_3d=false
+svg/scale=1.0
