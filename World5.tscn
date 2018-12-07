@@ -1,0 +1,38 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://Player.tscn" type="PackedScene" id=1]
+[ext_resource path="res://DirtAutoTile.tres" type="TileSet" id=2]
+[ext_resource path="res://WorldComplete.tscn" type="PackedScene" id=3]
+
+[node name="World5" type="Node"]
+
+[node name="Player" parent="." index="0" instance=ExtResource( 1 )]
+
+position = Vector2( 64, 72 )
+
+[node name="TileMap" type="TileMap" parent="." index="1"]
+
+mode = 0
+tile_set = ExtResource( 2 )
+cell_size = Vector2( 64, 64 )
+cell_quadrant_size = 16
+cell_custom_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+cell_half_offset = 2
+cell_tile_origin = 0
+cell_y_sort = false
+cell_clip_uv = false
+collision_use_kinematic = false
+collision_friction = 1.0
+collision_bounce = 0.0
+collision_layer = 1
+collision_mask = 1
+occluder_light_mask = 1
+format = 1
+tile_data = PoolIntArray( 131074, 0, 5, 131080, 0, 6, 131081, 0, 196610, 196608, 0, 196608, 196609, 0, 196609, 196610, 0, 196611, 196611, 0, 196609, 196612, 0, 196609, 196613, 0, 7, 196616, 0, 131077, 196618, 0, 196613, 262149, 0, 131077, 262153, 0, 196613, 262155, 0, 196613, 262158, 0, 5, 327694, 0, 65541, 393217, 0, 6, 393218, 0, 196609, 393219, 0, 196610, 393227, 0, 6, 393228, 0, 196609, 393229, 0, 196609, 393230, 0, 65543, 458753, 0, 65541, 458757, 0, 196613, 458761, 0, 6, 458762, 0, 196609, 458763, 0, 65543, 524289, 0, 131077, 524295, 0, 196608, 524296, 0, 196609, 524297, 0, 65543, 655360, 0, 5, 655371, 0, 196608, 655372, 0, 196609, 655373, 0, 196610, 720896, 0, 131075, 720897, 0, 196609, 720898, 0, 196609, 720899, 0, 196609, 720900, 0, 196609, 720901, 0, 196609, 720902, 0, 196609, 720903, 0, 7, 786432, 0, 131077, 786439, 0, 131075, 786440, 0, 196609, 786441, 0, 196609, 786442, 0, 196610, 786447, 0, 196608, 786448, 0, 7, 851971, 0, 196608, 851972, 0, 196609, 851973, 0, 196609, 851974, 0, 196609, 851975, 0, 65543, 851984, 0, 131077, 917516, 0, 196608, 917517, 0, 7, 983050, 0, 5, 983053, 0, 65541, 983057, 0, 196608, 983058, 0, 196610, 1048586, 0, 65542, 1048587, 0, 196610, 1048589, 0, 65542, 1048590, 0, 196609, 1048591, 0, 196609, 1048592, 0, 196610 )
+
+[node name="WorldComplete" parent="." index="2" instance=ExtResource( 3 )]
+
+position = Vector2( 1154, 915 )
+world_scene = "res://World.tscn"
+
+

@@ -1,20 +1,27 @@
-[gd_scene load_steps=6 format=2]
+[gd_scene load_steps=12 format=2]
 
 [ext_resource path="res://Player.tscn" type="PackedScene" id=1]
 [ext_resource path="res://icon.png" type="Texture" id=2]
 [ext_resource path="res://jungleDirtTileset.tres" type="TileSet" id=3]
 [ext_resource path="res://WorldComplete.tscn" type="PackedScene" id=4]
+[ext_resource path="res://Gems/BlueGem.tscn" type="PackedScene" id=5]
+[ext_resource path="res://Gems/GreenGem.tscn" type="PackedScene" id=6]
+[ext_resource path="res://Gems/BlackGem.tscn" type="PackedScene" id=7]
+[ext_resource path="res://Gems/RedGem.tscn" type="PackedScene" id=8]
+[ext_resource path="res://Gems/PinkGem.tscn" type="PackedScene" id=9]
+[ext_resource path="res://Gems/YellowGem.tscn" type="PackedScene" id=10]
 
 [sub_resource type="RectangleShape2D" id=1]
 
 custom_solver_bias = 0.0
 extents = Vector2( 32, 32 )
 
-[node name="World" type="Node"]
+[node name="World" type="Node" index="0"]
 
 [node name="Player" parent="." index="0" instance=ExtResource( 1 )]
 
 position = Vector2( 46, 130 )
+_sections_unfolded = [ "Collision", "Material", "Transform", "Visibility", "collision" ]
 
 [node name="Walls" type="Node" parent="." index="1"]
 
@@ -124,5 +131,29 @@ __meta__ = {
 
 position = Vector2( 600, 146 )
 world_scene = "res://World2.tscn"
+
+[node name="BlueGem" parent="." index="4" instance=ExtResource( 5 )]
+
+position = Vector2( 280, 131 )
+
+[node name="GreenGem" parent="." index="5" instance=ExtResource( 6 )]
+
+position = Vector2( 312, 130 )
+
+[node name="BlackGem" parent="." index="6" instance=ExtResource( 7 )]
+
+position = Vector2( 248, 130 )
+
+[node name="RedGem" parent="." index="7" instance=ExtResource( 8 )]
+
+position = Vector2( 374, 130 )
+
+[node name="PinkGem" parent="." index="8" instance=ExtResource( 9 )]
+
+position = Vector2( 406, 128 )
+
+[node name="YellowGem" parent="." index="9" instance=ExtResource( 10 )]
+
+position = Vector2( 342, 128 )
 
 
