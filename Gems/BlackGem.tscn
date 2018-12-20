@@ -2,7 +2,7 @@
 
 [ext_resource path="res://Gems/BlackGem.gd" type="Script" id=1]
 [ext_resource path="res://Gems/crystal-qubodup-ccby3-32-grey.png" type="Texture" id=2]
-[ext_resource path="res://BlackGem2Sprite.gd" type="Script" id=3]
+[ext_resource path="res://shiny.gd" type="Script" id=3]
 
 [sub_resource type="CapsuleShape2D" id=1]
 
@@ -35,5 +35,7 @@ _sections_unfolded = [ "Animation" ]
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." index="1"]
 
 shape = SubResource( 1 )
+
+[connection signal="body_entered" from="." to="." method="_on_BlackGem_body_entered"]
 
 
