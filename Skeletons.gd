@@ -1,6 +1,7 @@
 extends Sprite
 
-# TODO make this for all the gems so don't need for each one with a seperate thing. 
+# https://opengameart.org/content/zombie-and-skeleton-32x48
+# Original art done by Artisticdude
 
 var timer 
 
@@ -14,8 +15,7 @@ func _ready():
 	timer.start()
 	
 func tick():
-	if self.frame < 7:  # because we have 8 images we neeed to reset after seven 
+	if self.frame < 5:  # because we have 8 images we neeed to reset after seven 
 		self.frame = self.frame + 1
 	else:
 		self.frame = 0
-		

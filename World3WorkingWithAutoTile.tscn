@@ -1,10 +1,13 @@
-[gd_scene load_steps=4 format=2]
+[gd_scene load_steps=7 format=2]
 
 [ext_resource path="res://Player.tscn" type="PackedScene" id=1]
 [ext_resource path="res://DirtAutoTile.tres" type="TileSet" id=2]
 [ext_resource path="res://WorldComplete.tscn" type="PackedScene" id=3]
+[ext_resource path="res://Zombie.tscn" type="PackedScene" id=4]
+[ext_resource path="res://Enemy.tscn" type="PackedScene" id=5]
+[ext_resource path="res://PowerUp.tscn" type="PackedScene" id=6]
 
-[node name="World3WorkingWithAutoTile" type="Node"]
+[node name="World3WorkingWithAutoTile" type="Node" index="0"]
 
 [node name="Player" parent="." index="0" instance=ExtResource( 1 )]
 
@@ -29,12 +32,44 @@ collision_layer = 1
 collision_mask = 1
 occluder_light_mask = 1
 format = 1
-tile_data = PoolIntArray( -65536, 0, 196613, 65540, 0, 5, 65544, 0, 5, 131075, 0, 1, 131076, 0, 11, 131080, 0, 65541, 262143, 0, 196608, 196608, 0, 196609, 196609, 0, 196609, 196610, 0, 196609, 196611, 0, 65544, 196612, 0, 65547, 196613, 0, 196609, 196614, 0, 196609, 196615, 0, 196609, 196616, 0, 196611, 196617, 0, 196610 )
+tile_data = PoolIntArray( -65536, 0, 196613, 65540, 0, 5, 65544, 0, 5, 196606, 0, 196613, 131075, 0, 1, 131076, 0, 11, 131080, 0, 65541, 131084, 0, 5, 131099, 0, 5, 262143, 0, 196608, 196608, 0, 196609, 196609, 0, 196609, 196610, 0, 196609, 196611, 0, 65544, 196612, 0, 65547, 196613, 0, 196609, 196614, 0, 196609, 196615, 0, 196609, 196616, 0, 196611, 196617, 0, 196609, 196618, 0, 196609, 196619, 0, 196609, 196620, 0, 196611, 196621, 0, 7, 196625, 0, 5, 196635, 0, 65541, 262157, 0, 65542, 262158, 0, 196609, 262159, 0, 196609, 262160, 0, 196609, 262161, 0, 196612, 262167, 0, 5, 262171, 0, 65541, 327697, 0, 65542, 327698, 0, 196609, 327699, 0, 196609, 327700, 0, 196609, 327701, 0, 196609, 327702, 0, 196609, 327703, 0, 196611, 327704, 0, 196609, 327705, 0, 196609, 327706, 0, 196609, 327707, 0, 65543 )
 _sections_unfolded = [ "Collision" ]
 
 [node name="WorldComplete" parent="." index="2" instance=ExtResource( 3 )]
 
-position = Vector2( 562, 66 )
+position = Vector2( 1518, 226 )
 world_scene = "res://World4.tscn"
+
+[node name="Zombie" parent="." index="3" instance=ExtResource( 4 )]
+
+position = Vector2( 252, 152 )
+
+[node name="Zombie2" parent="." index="4" instance=ExtResource( 4 )]
+
+position = Vector2( 1062, 261 )
+
+[node name="Zombie3" parent="." index="5" instance=ExtResource( 4 )]
+
+position = Vector2( 1435, 323 )
+
+[node name="Enemy" parent="." index="6" instance=ExtResource( 5 )]
+
+position = Vector2( 480, 212 )
+
+[node name="Enemy2" parent="." index="7" instance=ExtResource( 5 )]
+
+position = Vector2( 573, 83 )
+
+[node name="Enemy3" parent="." index="8" instance=ExtResource( 5 )]
+
+position = Vector2( 760, 214 )
+
+[node name="Enemy4" parent="." index="9" instance=ExtResource( 5 )]
+
+position = Vector2( 1137, 207 )
+
+[node name="PowerUp" parent="." index="10" instance=ExtResource( 6 )]
+
+position = Vector2( 823, 103 )
 
 
